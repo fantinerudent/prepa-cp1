@@ -14,17 +14,3 @@ const ship = [
 // CReer un tableau
 // push les paires dans le tableau
 
-function supply(ship) {
-  const pair = [];
-  const impair = [];
-  for (let i = 0; i < ship.length; i++) {
-    if (ship[i] % 2 === 0) {
-      pair.push(ship[i]);
-    } else {
-      impair.push(ship[i]);
-    }
-  }
-  console.log("carburant: ", pair, "eau: ", impair);
-}
-
-supply(ship);

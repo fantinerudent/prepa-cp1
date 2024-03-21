@@ -2,10 +2,3 @@
 
 //30/1.5=?*45
 
-function devis(longueurDeCloture) {
-  let nbBuisson = longueurDeCloture / 1.5;
-  let price = nbBuisson * 45;
-  console.log("Nb de Buissons ", nbBuisson, "price: ", price);
-}
-
-devis(50);
